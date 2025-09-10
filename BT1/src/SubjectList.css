@@ -1,0 +1,42 @@
+.subject-container {
+  background-color: #1e1e1e; /* nền tối */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.subject-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 250px;
+}
+
+.subject-item {
+  background-color: #dbeafe; /* xanh nhạt */
+  color: black;
+  text-align: center;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: background 0.3s;
+  cursor: pointer;
+}
+
+.subject-item:hover {
+  background-color: #bfdbfe; /* hover xanh đậm hơn */
+}
