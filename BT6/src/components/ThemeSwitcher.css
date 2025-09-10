@@ -1,0 +1,39 @@
+/* Áp dụng style chung */
+.light-mode, .dark-mode {
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 400px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Chế độ sáng */
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #ddd;
+}
+
+/* Chế độ tối */
+.dark-mode {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border: 1px solid #444;
+}
+
+/* Nút */
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #0056b3;
+}
